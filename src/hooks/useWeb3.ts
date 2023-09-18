@@ -6,7 +6,7 @@ function useWeb3() {
 
   useEffect(() => {
     const setWeb3Instance = async () => {
-      const rpcUrl = "http://23.108.57.128:8545";
+      const rpcUrl = "https://23.108.57.128:8545";
       const web3Instance = new Web3(rpcUrl);
 
       setWeb3(web3Instance);
